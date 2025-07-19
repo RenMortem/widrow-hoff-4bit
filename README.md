@@ -13,3 +13,5 @@ This project implements the Widrow-Hoff learning rule in Verilog using a 4-bit s
 1. Load 4 bits serially via signal `y` using `start`.
 2. Set `pixel` high to begin calculation once 4 bits are loaded.
 3. Select learning rate with `sel`
+
+<img width="1145" height="287" alt="image" src="https://github.com/user-attachments/assets/9e2ef896-2cea-478a-9b48-7da3a1016085" />
