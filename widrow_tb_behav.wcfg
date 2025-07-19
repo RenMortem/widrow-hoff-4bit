@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="widrow_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="widrow_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="88.201 ns"></ZoomEndTime>
+      <Cursor1Time time="31.344 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="209"></NameColumnWidth>
+      <ValueColumnWidth column_width="131"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/widrow_tb/clkstim" type="logic">
+      <obj_property name="ElementShortName">clkstim</obj_property>
+      <obj_property name="ObjectShortName">clkstim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/pixelstim" type="logic">
+      <obj_property name="ElementShortName">pixelstim</obj_property>
+      <obj_property name="ObjectShortName">pixelstim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/selstim" type="logic">
+      <obj_property name="ElementShortName">selstim</obj_property>
+      <obj_property name="ObjectShortName">selstim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dstim" type="array">
+      <obj_property name="ElementShortName">dstim[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dstim[3:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">3</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/ystim" type="logic">
+      <obj_property name="ElementShortName">ystim</obj_property>
+      <obj_property name="ObjectShortName">ystim</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dut/cont" type="array">
+      <obj_property name="ElementShortName">cont[1:0]</obj_property>
+      <obj_property name="ObjectShortName">cont[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dut/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dut/y_register" type="array">
+      <obj_property name="ElementShortName">y_register[3:0]</obj_property>
+      <obj_property name="ObjectShortName">y_register[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/widrow_tb/dwwatch" type="array">
+      <obj_property name="ElementShortName">dwwatch[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dwwatch[3:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">3</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+</wave_config>
